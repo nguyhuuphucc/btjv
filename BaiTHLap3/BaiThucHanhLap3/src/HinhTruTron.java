@@ -1,10 +1,18 @@
+import java.util.Scanner;
+
 public class HinhTruTron {
-    float banKinh = 2.5f;
-    float chieuCao = 4.2f;
+    float banKinh;
+    float chieuCao;
     final float PI = 3.14f;
     float chuVi;
     float dienTich;
     float theTich;
+    void NhapBanKinh() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("r = ");
+        banKinh = sc.nextFloat();
+    }
+    
     void tinhchuVi() {
         chuVi = 2 * PI * banKinh * chieuCao;
     }
