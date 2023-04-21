@@ -6,7 +6,7 @@ public class HinhHoc {
     public float ChuVi, DienTich, TheTich;
 
     public void xuatTen() {
-        System.out.println("\n\n====" + ten + " ====");
+        System.out.println("\n\n ====" + ten + " ====");
     }
     public void tinhChuVi() {
         System.out.println("Chu vi = " + ChuVi);

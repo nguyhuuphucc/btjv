@@ -15,7 +15,9 @@ public class MainClass {
 
         HinhTru htu = new HinhTru();
         htu.xuatTen();
+        htu.nhapBanKinh();
         htu.nhapChieuCao();
+        htu.tinhChuVi();
         htu.tinhDienTich();
         htu.Hienthi();
 
@@ -35,4 +37,3 @@ public class MainClass {
         hv.hienthi();
     }
 }
-
